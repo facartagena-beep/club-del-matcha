@@ -103,7 +103,6 @@ a:focus{outline:3px solid rgba(143,181,107,0.18);outline-offset:3px}
 }
 
 .card img {
-  width: 100%;
   border-radius: 12px;
 }
 
@@ -157,7 +156,6 @@ section, .card {
   }
 
   .card {
-    width: 90%;
   }
 .hero img {
   max-height: 400px;
@@ -178,11 +176,9 @@ section, .card {
 }
 
 .ritual-contenido p {
-  max-width: 500px;
   font-size: 16px;
 }
 .beneficios-img {
-  width: 250px;
   display: block;
   margin: 20px auto;
   border-radius: 15px;
@@ -195,12 +191,10 @@ section, .card {
 }
 
 .galeria-final img {
-  width: 220px;
   border-radius: 15px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 img {
-  max-width: 100%;
   height: auto;
   display: block;
 }
@@ -211,22 +205,20 @@ img {
   margin: 30px auto;
 }
 .card img {
-  height: 180px;
   object-fit: cover;
   border-radius: 12px;
 }
 .ritual-contenido img {
-  width: 260px;
   height: 200px;
   object-fit: cover;
   border-radius: 15px;
 }
 .galeria-final img {
-  width: 200px;
   height: 150px;
   object-fit: cover;
   border-radius: 15px;
 }
+
 
 
 
