@@ -200,6 +200,37 @@ section, .card {
   border-radius: 15px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.hero img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin: 30px auto;
+}
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.ritual-contenido img {
+  width: 260px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.galeria-final img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
 
 
 
