@@ -166,6 +166,41 @@ section, .card {
   border-radius: 20px;
   margin: 30px auto;
 }
+.ritual-contenido {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.ritual-contenido img {
+  width: 300px;
+  border-radius: 15px;
+}
+
+.ritual-contenido p {
+  max-width: 500px;
+  font-size: 16px;
+}
+.beneficios-img {
+  width: 250px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 15px;
+}
+.galeria-final .imagenes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.galeria-final img {
+  width: 220px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
 
 
 
