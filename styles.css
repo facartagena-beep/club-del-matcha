@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 /*
   styles.css — El Club del Matcha
   Estilo moderno, limpio y aesthetic
@@ -229,3 +232,30 @@ section {
     transform: translateY(0);
   }
 }
+/* =========================
+   BOTÓN CTA
+========================= */
+.cta {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.btn-club {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--accent), #f7a8b8);
+  color: #fff;
+  padding: 14px 36px;
+  border-radius: 40px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 10px 25px rgba(244,193,204,0.45);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-club:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 35px rgba(244,193,204,0.6);
+}
+
+
