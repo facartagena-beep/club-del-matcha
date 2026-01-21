@@ -1,177 +1,130 @@
 <!doctype html>
-<!--
-  El Club del Matcha — Página estática
-  HTML puro (español). Archivo público listo para GitHub Pages.
--->
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>El Club del Matcha</title>
-  <p class="slogan">Bienestar, energía y rituales diarios con matcha premium</p>
-  <meta name="description" content="El Club del Matcha — Té matcha premium, puro y responsable.">
+
+  <meta name="description" content="El Club del Matcha — bienestar, energía y rituales diarios con matcha premium.">
+
   <link rel="stylesheet" href="styles.css">
-</head>
   <link rel="icon" href="favicon.png">
+</head>
+
 <body>
-  <section class="sobre">
-  <h2>Sobre nosotros</h2>
-  <p>
-    El Club del Matcha nace como un espacio para quienes buscan bienestar,
-    energía natural y momentos de calma en su día a día.
-    Nuestro matcha es cuidadosamente seleccionado para ofrecer calidad,
-    sabor y beneficios reales para el cuerpo y la mente.
-  </p>
-</section>
-  <!-- Contenedor principal centrado -->
-  <div class="site">
-<section class="ritual">
-  <h2>El ritual del matcha</h2>
 
-  <div class="ritual-contenido">
-    <img src="images/matcha-ritual.png" alt="Ritual del matcha">
+<div class="site">
 
-    <p>
-      Preparar matcha es más que una bebida: es un ritual de calma,
-      conexión y energía consciente que acompaña tu día.
-    </p>
-  </div>
-</section>
-    <!-- Header: nombre y eslogan -->
-    <header class="site-header">
-      <div class="container">
-        <h1 class="brand">El Club del Matcha</h1>
-        <p class="tagline">Sabor, calma y energía en cada taza</p>
+  <!-- HEADER -->
+  <header class="site-header">
+    <h1 class="brand">El Club del Matcha</h1>
+    <p class="tagline">Sabor, calma y energía en cada taza</p>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero container">
+    <img src="images/matcha-hero.png" alt="Matcha premium">
+  </section>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main class="container">
+
+    <!-- SOBRE NOSOTROS -->
+    <section id="sobre" class="panel">
+      <h2>Sobre nosotros</h2>
+      <p>
+        El Club del Matcha nace como un espacio para quienes buscan bienestar,
+        energía natural y momentos de calma en su día a día.
+        Nuestro matcha es cuidadosamente seleccionado para ofrecer calidad,
+        sabor y beneficios reales para el cuerpo y la mente.
+      </p>
+    </section>
+
+    <!-- RITUAL -->
+    <section class="panel">
+      <h2>El ritual del matcha</h2>
+
+      <div class="ritual-contenido">
+        <img src="images/matcha-ritual.png" alt="Ritual del matcha">
+
+        <p>
+          Preparar matcha es más que una bebida: es un ritual de calma,
+          conexión y energía consciente que acompaña tu día.
+        </p>
       </div>
-    </header>
-<section class="hero">
-  <img src="images/matcha-hero.png" alt="El Club del Matcha">
-</section>
-    <main>
-      <div class="container">
+    </section>
 
-        <!-- Sobre nosotros -->
-        <section id="sobre" class="panel">
-          <h2>Sobre nosotros</h2>
-          <p>
-            Somos una pequeña comunidad dedicada a ofrecer matcha de alta calidad,
-            cultivado y procesado con respeto por la tradición. Nuestras hojas
-            se transforman en un polvo fino, vibrante y lleno de sabor.
-          </p>
-        </section>
+    <!-- PRODUCTOS VISUALES -->
+    <section id="productos" class="panel">
+      <h2>Nuestros productos</h2>
 
-        <!-- Nuestros productos (presentación visual) -->
-        <section id="productos" class="panel">
-          <h2>Nuestros productos</h2>
-          <p class="muted">Selección curada — presentación y origen.</p>
+      <div class="products">
+        <article class="card">
+          <img src="images/matcha-polvo.png" alt="Matcha ceremonial">
+          <h3>Matcha ceremonial</h3>
+          <p>Matcha premium 100% natural para rituales diarios.</p>
+        </article>
 
-          <div class="grid products">
-            <!-- Producto 1 -->
-            <article class="card">
-              <div class="card-visual visual-ceremonial" aria-hidden="true"></div>
-              <h3>Matcha Ceremonial</h3>
-              <p>Polvo premium, textura sedosa y aroma vegetal profundo.</p>
-            </article>
+        <article class="card">
+          <img src="images/matcha-te.jpg" alt="Bebida de matcha">
+          <h3>Bebida de matcha</h3>
+          <p>Cremosa, energizante y rica en antioxidantes.</p>
+        </article>
 
-            <!-- Producto 2 -->
-            <article class="card">
-              <div class="card-visual visual-culinario" aria-hidden="true"></div>
-              <h3>Matcha Culinario</h3>
-              <p>Ideal para recetas: repostería, lattes y batidos.</p>
-            </article>
-
-            <!-- Producto 3 -->
-            <article class="card">
-              <div class="card-visual visual-organic" aria-hidden="true"></div>
-              <h3>Matcha Orgánico</h3>
-              <p>Cultivado sin pesticidas, sabor limpio y responsable.</p>
-            </article>
-
-            <!-- Producto 4 -->
-            <article class="card">
-              <div class="card-visual visual-blend" aria-hidden="true"></div>
-              <h3>Edición Blend</h3>
-              <p>Mezcla exclusiva con notas florales y dulces.</p>
-            </article>
-          </div>
-        </section>
-        <section class="productos">
-  <h2>Nuestros productos</h2>
-
-  <div class="galeria">
-    <div class="card">
-      <img src="images/matcha-polvo.png" alt="Matcha en polvo">
-      <h3>Matcha ceremonial</h3>
-      <p>Matcha premium 100% natural, ideal para bebidas y rituales diarios.</p>
-    </div>
-
-    <div class="card">
-      <img src="images/matcha-te.jpg" alt="Té matcha preparado">
-      <h3>Bebida de matcha</h3>
-      <p>Bebida cremosa, energizante y llena de antioxidantes.</p>
-    </div>
-
-    <div class="card">
-      <img src="images/matcha-bowl.jpg" alt="Preparación de matcha">
-      <h3>Preparación tradicional</h3>
-      <p>Una experiencia consciente para cuerpo y mente.</p>
-    </div>
-  </div>
-</section>
-        <!-- Beneficios del matcha -->
-        <img src="images/matcha-beneficios.png" alt="Beneficios del matcha" class="beneficios-img">
-        <section id="beneficios" class="panel">
-          <h2>Beneficios del matcha</h2>
-          <ul class="benefits">
-            <li>
-              <strong>Antioxidantes:</strong> Rico en catequinas que combaten el estrés oxidativo.
-            </li>
-            <li>
-              <strong>Energía sostenida:</strong> Contiene L-teanina y cafeína para enfoque sin nervios.
-            </li>
-            <li>
-              <strong>Bienestar mental:</strong> Promueve relajación y claridad mental.
-            </li>
-          </ul>
-        </section>
-
-        <!-- Contacto -->
-        <section id="contacto" class="panel">
-          <h2>Contacto</h2>
-          <p>¿Tienes preguntas o quieres colaborar? Escríbenos:</p>
-          <p class="contact-links">
-            <a href="mailto:contacto@elclubdelmatcha.example">contacto@elclubdelmatcha.example</a>
-            <span class="sep">•</span>
-            <a href="#">Instagram @elclubdelmatcha</a>
-          </p>
-        </section>
-
+        <article class="card">
+          <img src="images/matcha-bowl.jpg" alt="Preparación tradicional">
+          <h3>Preparación tradicional</h3>
+          <p>Una experiencia consciente para cuerpo y mente.</p>
+        </article>
       </div>
-    </main>
-<section class="galeria-final">
-  <h2>Momentos matcha</h2>
+    </section>
 
-  <div class="imagenes">
-    <img src="images/matcha-bebida.png" alt="Bebida matcha">
-    <img src="images/matcha-polvo.png" alt="Matcha en polvo">
-    <img src="images/matcha-bowl.jpg" alt="Preparación de matcha">
-  </div>
-</section>
-    <!-- Footer con nombre de la marca -->
-    <footer class="site-footer">
-      <div class="container">
-        <p>El Club del Matcha</p>
+    <!-- BENEFICIOS -->
+    <section id="beneficios" class="panel">
+      <h2>Beneficios del matcha</h2>
+
+      <img src="images/matcha-beneficios.png" alt="Beneficios del matcha" class="beneficios-img">
+
+      <ul class="benefits">
+        <li><strong>Antioxidantes:</strong> Combate el estrés oxidativo.</li>
+        <li><strong>Energía sostenida:</strong> Enfoque sin nervios.</li>
+        <li><strong>Bienestar mental:</strong> Relajación y claridad.</li>
+      </ul>
+    </section>
+
+    <!-- GALERÍA -->
+    <section class="panel galeria-final">
+      <h2>Momentos matcha</h2>
+
+      <div class="imagenes">
+        <img src="images/matcha-bebida.png" alt="Bebida matcha">
+        <img src="images/matcha-polvo.png" alt="Matcha en polvo">
+        <img src="images/matcha-bowl.jpg" alt="Preparación de matcha">
       </div>
-    </footer>
+    </section>
 
-  </div>
-<a href="https://wa.me/593980925845" class="whatsapp" target="_blank">
-  💬
-</a>
+    <!-- CONTACTO -->
+    <section id="contacto" class="panel">
+      <h2>Contacto</h2>
+      <p>
+        Escríbenos a
+        <a href="mailto:contacto@elclubdelmatcha.example">
+          contacto@elclubdelmatcha.example
+        </a>
+      </p>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <p>© 2026 El Club del Matcha</p>
+  </footer>
+
+</div>
+
+<!-- WHATSAPP -->
+<a href="https://wa.me/593980925845" class="whatsapp" target="_blank">💬</a>
+
 </body>
 </html>
-
-
-
-
-
